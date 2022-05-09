@@ -9,6 +9,6 @@ cd dist
 git init
 git add -A
 git commit -m 'Ney Deployment'
-git push git@github.com:HellOil/vue-pages.git master:gh-pages --force
+git push -f git@github.com:HellOil/vue-pages.git master:gh-pages
 
 cd -
